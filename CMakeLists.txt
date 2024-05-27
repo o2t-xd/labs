@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD 17)			 # устанавливаем 17 стандарт �
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
+add_definitions(-DPATH="${CMAKE_SOURCE_DIR}")
 
 # Подключить header-файлы
 include_directories("inc")
